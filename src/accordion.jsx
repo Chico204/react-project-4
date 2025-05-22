@@ -9,7 +9,7 @@ export default function Accordion() {
     }
   
   return (
-    <div className=' mx-auto p-4'>
+    <div className=' mx-auto mt-10 p-4 max-w-2xl bg-white'>
         <h2 className='text-2xl mb-6 font-bold text-center'>Frequently Asked Questions</h2>
    <div className=' space-y-4 max-w-2xl mx-auto'>
     {faq.map((faq, index)=> (
