@@ -1,13 +1,14 @@
-import { useState } from 'react'
+import React from 'react'
+import Accordion from './accordion'
 
 
 function App() {
  
 
   return (
-    <>
-      <div>im a boy</div>
-    </>
+   <div>
+    <Accordion/>
+   </div>
   )
 }
 
